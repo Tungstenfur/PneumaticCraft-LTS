@@ -19,9 +19,10 @@ environment.properties
 .classpath
 .project
 /build
+!/build/dirtyArtifacts
+!/build/dirtyArtifacts/*.jar
 /eclipse
 .gradle/
 .settings/
 /sounds
-#Add dependencies
-!/build/dirtyArtifacts
+/.idea
